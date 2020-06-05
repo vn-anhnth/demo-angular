@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { HighlightDirective } from './highlight.directive';
+import { MessagesPipe } from './messages.pipe';
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { HighlightDirective } from './highlight.directive';
         MessagesComponent,
         DashboardComponent,
         HeroSearchComponent,
-        HighlightDirective
+        HighlightDirective,
+        MessagesPipe
     ],
     imports: [
         BrowserModule,
